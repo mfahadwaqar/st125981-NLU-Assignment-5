@@ -50,7 +50,7 @@ Training curves (loss, reward margin, chosen vs rejected rewards) are saved to `
 - **Evaluation dataset:** [tatsu-lab/alpaca_eval](https://huggingface.co/datasets/tatsu-lab/alpaca_eval) — `helpful_base` subset
 - 15 random prompts are sampled (seed=42)
 - Responses are generated from both the Base model and the DPO fine-tuned model
-- GPT-4o-mini judges each pair of responses using the following prompt template:
+- Groq llama-3.1-8b-instant judges each pair of responses using the following prompt template:
 
 > You are a highly qualified and impartial judge evaluating two AI models. Your task is to determine which model provides a better, more accurate, and more helpful response to the user's instruction. [...] Output ONLY your final verdict as exactly one of the following options, with no extra text or explanation: "Model A", "Model B", or "Tie".
 
@@ -117,7 +117,7 @@ Where Model B is the DPO fine-tuned model. Results are saved to `evaluation_resu
 | Evaluation dataset | AlpacaEval `helpful_base` (129 samples total) |
 | Prompts sampled | 15 (seed=42) |
 | Valid evaluations | 15 |
-| Judge model | GPT-4o-mini |
+| Judge model | Groq llama-3.1-8b-instant |
 | Model A wins (Base) | 11 |
 | Model B wins (DPO) | 3 |
 | Ties | 1 |
