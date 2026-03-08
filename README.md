@@ -1,6 +1,6 @@
 # NLU Assignment 5: Optimization Human Preference & LLM-as-a-Judge
 
-**Name:** Muhammad Fahad Waqar
+**Name:** Muhammad Fahad Waqar <br>
 **Student ID:** st125981  
 
 ---
@@ -43,7 +43,7 @@ Training curves (loss, reward margin, chosen vs rejected rewards) are saved to `
 
 - The trained LoRA adapter is saved locally to `./output-dpo-qwen/` and pushed to Hugging Face Hub
 - Only the adapter weights are uploaded (not the full base model)
-- **Model URL:** https://huggingface.co/st125981/st125981-qwen2.5-1.5b-dpo-truthy
+- **Model URL:** https://huggingface.co/mfahadwaqar20/st125981-qwen2.5-1.5b-dpo-truthy
 
 ### Task 4: LLM-as-a-Judge Evaluation
 
