@@ -108,7 +108,7 @@ Where Model B is the DPO fine-tuned model. Results are saved to `evaluation_resu
 | 500 | 0.6229 | 0.6173 | 0.0312 | -0.1368 | 0.8039 | 0.1681 |
 | 600 | 0.5644 | 0.6072 | 0.0297 | -0.1628 | 0.8333 | 0.1925 |
 
-![Training Curves](__results___files/__results___16_0.png)
+![Training Curves](training_curves.png)
 
 ### Evaluation (LLM-as-a-Judge)
 
@@ -144,7 +144,7 @@ Where Model B is the DPO fine-tuned model. Results are saved to `evaluation_resu
 | 14 | I've read the book "The Twelve Caesars" by Suetonius. I'm curious about the content... | Model A |
 | 15 | What year was the Yamato Battleship built? | Model A |
 
-![Evaluation Results](__results___files/__results___33_1.png)
+![Evaluation Results](evaluation_results.png)
 
 ---
 
